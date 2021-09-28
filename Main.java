@@ -1,3 +1,4 @@
+/* this program is intends to print out the 12 verses of the poem 12 days of Christmas */
 public class Main {
 
     public static void main(String[] args) {
