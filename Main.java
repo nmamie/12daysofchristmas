@@ -2,6 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        /* for loop that determines the correct ending of the specific day */
         for (int day = 1; day <= 12; day++) {
             System.out.print("On the " + day);
 
@@ -19,8 +20,10 @@ public class Main {
                     System.out.print("th");
             }
 
+            /* print the non-changing middle part of the poem */
             System.out.println(" day of Christmas my true love gave to me");
 
+            /* execute a switch that prints the next verse of the poem for each run */
             switch (day) {
                 case 12:
                     System.out.println("Twelve drummers drumming,");
